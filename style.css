@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.scroll-down{
+    height: 500px;
+    width: 100%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(autumn-poolside.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+.text{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.scroll-down1{
+    height: 500px;
+    width: 100%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.scroll-down2{
+    height: 500px;
+    width: 100%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(painting-mountain-lake-with-mountain-background_188544-9126.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
