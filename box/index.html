@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <input id="inp" type="number" placeholder="Write Number">
+    <button id="plus">+</button>
+    <button id="minus" onclick="minusOne()">-</button>
+    </div>
+
+
+<div class="kk">
+    <div class="ll"><h1>HI</h1></div>
+    <div class="ll"><h1>HI</h1></div>
+    <div class="ll"><h1>HI</h1></div>
+    <div class="ll"><h1>HI</h1></div>
+</div>
+
+    <script>        
+        let addBtn = document.getElementById('plus')
+        addBtn.addEventListener('click', plusOne)
+
+        let newValue = "";
+
+function plusOne(e){
+    let currentInput = e.currentTarget.previousElementSibling
+    newValue = Number(currentInput.value) + 1
+    currentInput.value = newValue
+}
+
+        let subBtn = document.getElementById('minus')
+        subBtn.addEventListener('click', minusOne)
+
+function minusOne(e){
+    let currentInput = e.currentTarget.parentElement.children[0]
+    newValue = Number(currentInput.value) - 1
+    currentInput.value = newValue
+}
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.kk{
+   height: 100px;
+   width: 100px;
+   border: 2px solid black; 
+   /* text-align: center; */
+}
+
+div.kk>div{
+     /* margin: auto; */
+    text-align: center;
+}
